@@ -1,381 +1,131 @@
-# 💡 Bloquinho de Ideias
+# Projeto Criado com o Skip
 
-> Um espaço digital para capturar, organizar e transformar ideias em projetos reais.
+Este projeto foi criado de ponta a ponta com o [Skip](https://goskip.dev).
 
-![Status](https://img.shields.io/badge/Status-Em%20Evolução-blue)
-![Tecnologia](https://img.shields.io/badge/Tecnologia-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
-![Projeto](https://img.shields.io/badge/Tipo-Projeto%20Pessoal-purple)
+## 🚀 Stack Tecnológica
 
----
+- **React 19** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool extremamente rápida
+- **TypeScript** - Superset tipado do JavaScript
+- **Shadcn UI** - Componentes reutilizáveis e acessíveis
+- **Tailwind CSS** - Framework CSS utility-first
+- **React Router** - Roteamento para aplicações React
+- **React Hook Form** - Gerenciamento de formulários performático
+- **Zod** - Validação de schemas TypeScript-first
+- **Recharts** - Biblioteca de gráficos para React
 
-# 📌 Sobre o Projeto
+## 📋 Pré-requisitos
 
-O **Bloquinho de Ideias** é uma aplicação criada para armazenar pensamentos, conceitos e ideias de projetos de forma organizada e visual.
+- Node.js 18+
+- npm
 
-Muitas ideias surgem durante o dia, mas acabam sendo esquecidas por falta de um lugar simples para registrá-las. Este projeto funciona como um **caderno digital de criatividade**, permitindo guardar ideias de aplicativos, jogos, pesquisas, soluções, produtos e projetos futuros.
-
-A proposta é transformar uma simples anotação em uma possibilidade de criação.
-
----
-
-# 🎯 Objetivo
-
-Criar uma ferramenta simples, bonita e intuitiva para:
-
-* 💡 Registrar ideias rapidamente
-* 🗂️ Organizar pensamentos por categorias
-* 🔎 Encontrar ideias facilmente
-* ⭐ Marcar ideias favoritas
-* 🚀 Acompanhar evolução de projetos
-* 🧠 Criar um histórico de criatividade
-
----
-
-# ✨ Funcionalidades
-
-## 📝 Cadastro de Ideias
-
-Cada ideia possui:
-
-* Nome da ideia
-* Categoria
-* Descrição
-* Objetivo
-* Tecnologias ou recursos necessários
-* Status atual
-* Data de criação
-
----
-
-## 🗂️ Organização por Categorias
-
-As ideias podem ser classificadas em diferentes áreas:
-
-| Categoria               | Emoji |
-| ----------------------- | ----- |
-| Jogos                   | 🎮    |
-| Tecnologia              | 💻    |
-| Inteligência Artificial | 🤖    |
-| Saúde                   | 🏥    |
-| Educação                | 📚    |
-| Sustentabilidade        | 🌱    |
-| Design                  | 🎨    |
-| Negócios                | 🚀    |
-| Pesquisa                | 🔬    |
-| Outros                  | 💭    |
-
----
-
-# 📊 Sistema de Status
-
-Cada ideia pode possuir um estágio de desenvolvimento:
-
-| Status             | Significado                          |
-| ------------------ | ------------------------------------ |
-| 🟣 Ideia Inicial   | Apenas uma inspiração ou conceito    |
-| 🟡 Pesquisa        | Momento de estudar e validar a ideia |
-| 🔵 Planejamento    | Estruturação do projeto              |
-| 🟠 Desenvolvimento | Projeto sendo criado                 |
-| 🟢 Finalizado      | Projeto concluído                    |
-| ⚫ Arquivado        | Ideia guardada para outro momento    |
-
----
-
-# 🧩 Estrutura de uma Ideia
-
-Cada card representa uma ideia:
-
-```html
-<div class="idea-card">
-
-    <span class="category">
-        🎮 Jogos
-    </span>
-
-    <h3>
-        Nome da Ideia
-    </h3>
-
-    <p>
-        Descrição resumida da ideia.
-    </p>
-
-    <div>
-        <strong>Objetivo:</strong>
-        Criar uma solução inovadora.
-    </div>
-
-    <div>
-        <strong>Tecnologias:</strong>
-        HTML, CSS, JavaScript.
-    </div>
-
-    <div>
-        <strong>Status:</strong>
-        Ideia Inicial.
-    </div>
-
-</div>
-```
-
----
-
-# 🖥️ Interface
-
-A aplicação possui uma interface inspirada em:
-
-* 📒 Cadernos digitais
-* 🧱 Cards organizacionais
-* 📌 Murais de criatividade
-* 🧠 Ferramentas de produtividade
-
-Características visuais:
-
-* Design moderno
-* Cards organizados
-* Animações suaves
-* Layout responsivo
-* Interface intuitiva
-* Boa experiência em dispositivos móveis
-
----
-
-# 🔎 Pesquisa e Filtros
-
-Para facilitar a organização:
-
-## Busca
-
-Permite pesquisar ideias pelo:
-
-* Nome
-* Categoria
-* Descrição
-* Tecnologia
-
----
-
-## Filtros
-
-Possibilidade de filtrar por:
-
-* Todas as ideias
-* Jogos
-* Tecnologia
-* IA
-* Saúde
-* Educação
-* Negócios
-* Outros
-
----
-
-# ⭐ Sistema de Favoritos
-
-Usuários podem destacar ideias importantes.
-
-Ao favoritar uma ideia:
-
-* Ela recebe destaque visual
-* É salva no navegador
-* Continua disponível após atualizar a página
-
----
-
-# 💾 Armazenamento
-
-As informações são armazenadas utilizando:
-
-## LocalStorage
-
-Permitindo:
-
-* Salvar ideias criadas
-* Manter favoritos
-* Recuperar informações automaticamente
-
-Sem necessidade inicial de banco de dados.
-
----
-
-# 🛠️ Tecnologias Utilizadas
-
-## Front-end
-
-* HTML5
-* CSS3
-* JavaScript Vanilla
-
----
-
-## Conceitos aplicados
-
-* Manipulação do DOM
-* Eventos JavaScript
-* LocalStorage
-* Responsividade
-* Componentização visual
-* Organização de dados
-* UX/UI Design
-
----
-
-# 📂 Estrutura do Projeto
-
-```
-bloquinho-de-ideias/
-
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-└── README.md
-```
-
----
-
-# 🚀 Como Executar
-
-Clone o projeto:
+## 🔧 Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/bloquinho-de-ideias.git
+npm install
 ```
 
-Entre na pasta:
+## 💻 Scripts Disponíveis
+
+### Desenvolvimento
 
 ```bash
-cd bloquinho-de-ideias
+# Iniciar servidor de desenvolvimento
+npm start
+# ou
+npm run dev
 ```
 
-Abra o arquivo:
+Abre a aplicação em modo de desenvolvimento em [http://localhost:5173](http://localhost:5173).
 
-```
-index.html
-```
+### Build
 
-ou utilize uma extensão como:
+```bash
+# Build para produção
+npm run build
 
-```
-Live Server
-```
-
----
-
-# 📌 Como Adicionar Novas Ideias Manualmente
-
-No arquivo HTML existe uma área:
-
-```html
-<!-- ADICIONE NOVAS IDEIAS AQUI -->
+# Build para desenvolvimento
+npm run build:dev
 ```
 
-Basta copiar o modelo:
+Gera os arquivos otimizados para produção na pasta `dist/`.
 
-```html
-<div class="idea-card">
+### Preview
 
-    <span>
-        💻 Tecnologia
-    </span>
-
-    <h3>
-        Nova Ideia
-    </h3>
-
-    <p>
-        Descrição da ideia.
-    </p>
-
-    <p>
-        <strong>Objetivo:</strong>
-        Criar uma solução.
-    </p>
-
-    <p>
-        <strong>Tecnologias:</strong>
-        JavaScript.
-    </p>
-
-    <p>
-        <strong>Status:</strong>
-        Ideia Inicial.
-    </p>
-
-</div>
+```bash
+# Visualizar build de produção localmente
+npm run preview
 ```
 
----
+Permite visualizar a build de produção localmente antes do deploy.
 
-# 🔮 Futuras Melhorias
+### Linting e Formatação
 
-## Organização
+```bash
+# Executar linter
+npm run lint
 
-* [ ] Criar etiquetas personalizadas
-* [ ] Criar pastas de ideias
-* [ ] Ordenar por data
-* [ ] Ordenar por prioridade
+# Executar linter e corrigir problemas automaticamente
+npm run lint:fix
 
----
+# Formatar código com Oxfmt
+npm run format
+```
 
-## Inteligência Artificial
+## 📁 Estrutura do Projeto
 
-* [ ] IA para melhorar ideias
-* [ ] IA para gerar planos de projeto
-* [ ] IA para sugerir tecnologias
-* [ ] IA para analisar viabilidade
+```
+.
+├── src/              # Código fonte da aplicação
+├── public/           # Arquivos estáticos
+├── dist/             # Build de produção (gerado)
+├── node_modules/     # Dependências (gerado)
+└── package.json      # Configurações e dependências do projeto
+```
 
----
+## 🎨 Componentes UI
 
-## Produtividade
+Este template inclui uma biblioteca completa de componentes Shadcn UI baseados em Radix UI:
 
-* [ ] Sistema de metas
-* [ ] Calendário de desenvolvimento
-* [ ] Checklist de execução
-* [ ] Kanban de projetos
+- Accordion
+- Alert Dialog
+- Avatar
+- Button
+- Checkbox
+- Dialog
+- Dropdown Menu
+- Form
+- Input
+- Label
+- Select
+- Switch
+- Tabs
+- Toast
+- Tooltip
+- E muito mais...
 
----
+## 📝 Ferramentas de Qualidade de Código
 
-## Exportação
+- **TypeScript**: Tipagem estática
+- **Oxlint**: Linter extremamente rápido
+- **Oxfmt**: Formatação automática de código
 
-* [ ] Exportar ideias em PDF
-* [ ] Exportar Markdown
-* [ ] Compartilhar ideias
-* [ ] Criar backup
+## 🔄 Workflow de Desenvolvimento
 
----
+1. Instale as dependências: `npm install`
+2. Inicie o servidor de desenvolvimento: `npm start`
+3. Faça suas alterações
+4. Verifique o código: `npm run lint`
+5. Formate o código: `npm run format`
+6. Crie a build: `npm run build`
+7. Visualize a build: `npm run preview`
 
-# 🌱 Visão do Projeto
+## 📦 Build e Deploy
 
-O **Bloquinho de Ideias** não é apenas um aplicativo de anotações.
+Para criar uma build otimizada para produção:
 
-Ele representa um espaço onde criatividade, tecnologia e organização se encontram para transformar pensamentos em projetos.
+```bash
+npm run build
+```
 
-Toda grande criação começa com uma pequena ideia.
-
-💡 **Anote. Organize. Desenvolva. Crie.**
-
----
-
-# 👩‍💻 Autor
-
-Criado por **[SouBeatrizKaroline]**
-
-Projeto desenvolvido para estudo, criatividade e construção de portfólio.
-
----
-
-# 📄 Licença
-
-Este projeto está disponível para fins de estudo e desenvolvimento pessoal.
-
----
+Os arquivos otimizados serão gerados na pasta `dist/` e estarão prontos para deploy.
